@@ -149,8 +149,8 @@ void setup() {
   e2.createSprite(eW, eH);
   tft.fillScreen(TFT_WHITE);
 
-  ledcSetup(pwmLedChannelTFT, pwmFreq, pwmResolution);
-  ledcAttachPin(TFT_BL, pwmLedChannelTFT);
+ // ledcSetup(pwmLedChannelTFT, pwmFreq, pwmResolution);
+  //ledcAttachPin(TFT_BL, pwmLedChannelTFT);
   ledcWrite(pwmLedChannelTFT, brightnes[b]);
 
 for(int i=0;i<6;i++){
