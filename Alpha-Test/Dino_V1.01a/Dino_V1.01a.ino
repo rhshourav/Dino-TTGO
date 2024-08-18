@@ -103,7 +103,7 @@ int linesW[6];
 float linesX2[6];
 int linesW2[6];
 float clouds[2]={random(0,80),random(100,180)};
-float bumps[2];
+float bumps[5];
 int bumpsF[2];
 int eW=18;
 int eH=38;
@@ -111,7 +111,7 @@ int eH=38;
 float eX[2]={random(240,310),random(380,460)};
 int ef[2]={0,1};
 
-float sped=1.5;
+float sped=1.3;
 int x=30;
 int y=58;
 float dir=-1.4;
